@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('./assets/Fonts/lobster-13.otf') ;
+       
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar-brand {
+  font-family: 'Lobster';
+}
+
+.carousel-caption h3 {
+  font-family: 'Lobster';
+  font-size: "30px";
+}
