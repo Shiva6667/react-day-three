@@ -4,6 +4,8 @@ import './App.css';
 import Chart from 'react-google-charts';
 import HomePageCarousel from './components/carousel/carousel.component';
 import MainNavbar from './components/navbar/navbar.component';
+import { GoogleMap } from '@react-google-maps/api';
+import GoogleMapComponent from './components/GoogleMap/GoogleMap.component';
 function App() {
 
   const chartData = {
@@ -49,7 +51,7 @@ function App() {
     
           </div>
           <div className='col'>
-            Col2
+            <GoogleMapComponent/>
           </div>
         </div>
         
